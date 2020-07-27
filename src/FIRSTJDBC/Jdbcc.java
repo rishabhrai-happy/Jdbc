@@ -23,6 +23,7 @@ public class Jdbcc {
                String sql = "INSERT INTO student " +
                        "(ROLLNO, NAME, CPI) VALUES" +
                        " ('"+rollNo+"','"+name+"','"+cpi+"')";
+               int result = stmt.executeUpdate(sql);
 
 
            }
