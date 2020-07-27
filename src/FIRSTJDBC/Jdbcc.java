@@ -27,7 +27,9 @@ public class Jdbcc {
                System.out.println("no of rows affected = " + result);
 
 
+
            }
+           String sql = "SELECT * FROM student";
 
 
        }catch (Exception e){
