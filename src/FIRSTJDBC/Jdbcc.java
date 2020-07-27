@@ -18,6 +18,8 @@ public class Jdbcc {
            for (int i = 0; i < 5 ; i++){
                int rollNo = sc.nextInt();
                sc.nextLine();
+               String name = sc.nextLine();
+               double cpi = sc.nextDouble();
 
 
            }
