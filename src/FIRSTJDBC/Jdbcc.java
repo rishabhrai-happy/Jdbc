@@ -15,6 +15,9 @@ public class Jdbcc {
                    "");
            Statement stmt = con.createStatement();
            Scanner sc = new Scanner(System.in);
+           for (int i = 0; i < 5 ; i++){
+
+           }
 
 
        }catch (Exception e){
