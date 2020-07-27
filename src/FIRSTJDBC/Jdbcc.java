@@ -34,6 +34,7 @@ public class Jdbcc {
            ResultSet rs = stmt.executeQuery(sql);
            System.out.println("RollNo\t\tName\t\tCPI");
            while(rs.next()){
+               int rollNo = rs.getInt(1);
 
            }
 
