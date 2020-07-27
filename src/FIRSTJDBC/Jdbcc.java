@@ -36,6 +36,7 @@ public class Jdbcc {
            while(rs.next()){
                int rollNo = rs.getInt(1);
                String name = rs.getString(2);
+               double cpi = rs.getDouble(3);
 
            }
 
