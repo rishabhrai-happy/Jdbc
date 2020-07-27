@@ -20,6 +20,9 @@ public class Jdbcc {
                sc.nextLine();
                String name = sc.nextLine();
                double cpi = sc.nextDouble();
+               String sql = "INSERT INTO student " +
+                       "(ROLLNO, NAME, CPI) VALUES" +
+                       " ('"+rollNo+"','"+name+"','"+cpi+"')";
 
 
            }
