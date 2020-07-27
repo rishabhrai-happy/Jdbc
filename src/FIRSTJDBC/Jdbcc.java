@@ -3,6 +3,7 @@ package FIRSTJDBC;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.Statement;
+import java.util.Scanner;
 
 public class Jdbcc {
     public static void main(String arg[]){
@@ -13,6 +14,7 @@ public class Jdbcc {
                    "root",
                    "");
            Statement stmt = con.createStatement();
+           Scanner sc = new Scanner(System.in);
 
 
        }catch (Exception e){
