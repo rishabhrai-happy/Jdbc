@@ -32,6 +32,7 @@ public class Jdbcc {
            }
            String sql = "SELECT * FROM student";
            ResultSet rs = stmt.executeQuery(sql);
+           System.out.println("RollNo\t\tName\t\tCPI");
 
 
        }catch (Exception e){
