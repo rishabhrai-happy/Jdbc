@@ -37,6 +37,7 @@ public class Jdbcc {
                int rollNo = rs.getInt(1);
                String name = rs.getString(2);
                double cpi = rs.getDouble(3);
+               System.out.println(rollNo +"\t\t" + name +"\t\t" + cpi);
 
            }
 
