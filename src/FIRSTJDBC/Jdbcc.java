@@ -24,6 +24,7 @@ public class Jdbcc {
                        "(ROLLNO, NAME, CPI) VALUES" +
                        " ('"+rollNo+"','"+name+"','"+cpi+"')";
                int result = stmt.executeUpdate(sql);
+               System.out.println("no of rows affected = " + result);
 
 
            }
