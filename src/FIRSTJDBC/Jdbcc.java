@@ -2,6 +2,7 @@ package FIRSTJDBC;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.Scanner;
 
@@ -30,6 +31,7 @@ public class Jdbcc {
 
            }
            String sql = "SELECT * FROM student";
+           ResultSet rs = stmt.executeQuery(sql);
 
 
        }catch (Exception e){
