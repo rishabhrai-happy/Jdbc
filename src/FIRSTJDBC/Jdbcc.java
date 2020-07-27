@@ -35,6 +35,7 @@ public class Jdbcc {
            System.out.println("RollNo\t\tName\t\tCPI");
            while(rs.next()){
                int rollNo = rs.getInt(1);
+               String name = rs.getString(2);
 
            }
 
