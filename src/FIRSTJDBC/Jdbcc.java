@@ -2,6 +2,7 @@ package FIRSTJDBC;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.Statement;
 
 public class Jdbcc {
     public static void main(String arg[]){
@@ -11,6 +12,7 @@ public class Jdbcc {
                    "jdbc:mysql://localhost:3306/demostudent",
                    "root",
                    "");
+           Statement stmt = con.createStatement();
 
 
        }catch (Exception e){
